@@ -1,0 +1,72 @@
+const path = require('path');
+const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const ExtractText = new ExtractTextPlugin('./[name].css');
+
+const config = {
+  entry: './src/app.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: './js/[name].[chunkhash].js',
+    publicPath: process.env.PUBLIC_URL
+  },
+  module: {
+    rules: [{
+      use: 'babel-loader',
+      exclude: /node_modules/,
+      test: /\.js$/
+    }, {
+      test: /\.scss$/,
+      exclude: /node_modules/,
+      use: ExtractText.extract({
+        fallback: 'style-loader',
+        use: [{
+          loader: 'css-loader'
+        }, {
+          loader: 'autoprefixer-loader'
+        }, {
+          loader: 'sass-loader'
+        }]
+      })
+    }, {
+      use: [
+	          {
+	            loader: 'url-loader',
+	            options: {
+	            	limit: 10000,
+	            	outputPath: 'images/'
+	            }
+	          },
+	          'image-webpack-loader'
+	        ],
+      exclude: /node_modules/,
+      test: /\.(gif|jpe?g|png|svg)(\?.*)?$/
+    },
+    {
+      use: [
+	          {
+	            loader: 'file-loader',
+	            options: {
+	            	outputPath: 'fonts/'
+	            }
+	          }
+	        ],
+      exclude: /node_modules/,
+      test: /\.(woff2|woff|eot|ttf)$/
+    }]
+  },
+  devServer: {
+    port: 2020,
+    historyApiFallback: true
+  },
+  plugins: [
+    ExtractText,
+    new HtmlWebpackPlugin({
+      template: './index.html'
+    })
+  ]
+};
+
+module.exports = config;
