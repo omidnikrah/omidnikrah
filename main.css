@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);body {
+  background-color: #282c34;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px; }
+
+::-moz-selection {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+::selection {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.fade-appear {
+  opacity: 0.01; }
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out; }
+
+#header a {
+  color: #abb2bf;
+  text-decoration: none; }
