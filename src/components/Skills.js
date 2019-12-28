@@ -12,9 +12,9 @@ const Skills = () => (
 	transitionLeave={false}
   >
 <Highlight className='javascript hljs'>
-Skills.tech = {`["Javascript","React","TypeScript","JQuery","PHP","HTML5","CSS3"]`}
+Skills.tech = {`["Javascript", "React", "NodeJS", "TypeScript", "VueJS", "JQuery", "PHP", "Laravel", "HTML5", "CSS3"]`}
 <br/>
-Skills.other = {`["Webpack","GulpJs","Sass","Less","Babel"]`}
+Skills.other = {`["Webpack", "GulpJs", "Sass", "Less", "Babel", "Styled Components", "Flow"]`}
 </Highlight>
 </ReactCSSTransitionGroup>
 );
