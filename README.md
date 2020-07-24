@@ -1,4 +1,4 @@
-<div align="center">
+<p align="center">
   <h3>Coming Soon🤘🏻🔥</h3>
   <p align="center">
     <a target="_blank" href="https://medium.com/@omidnikrah">Medium</a> •
