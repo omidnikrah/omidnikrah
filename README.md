@@ -1,4 +1,4 @@
-<p align="center">
+<div align="center">
   <h3>Coming Soon🤘🏻🔥</h3>
   <p align="center">
     <a target="_blank" href="https://medium.com/@omidnikrah">Medium</a> •
@@ -14,7 +14,7 @@
   <br />
   <br />
   <img src="https://raw.githubusercontent.com/omidnikrah/omidnikrah/master/activity-profile.png" />
-</p>
+</div>
 
 ## My Latest Medium Article
 
