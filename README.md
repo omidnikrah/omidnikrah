@@ -15,3 +15,6 @@
   <br />
   <img src="https://raw.githubusercontent.com/omidnikrah/omidnikrah/master/activity-profile.png" />
 </p>
+<a href="https://medium.com/@omidnikrah">
+  <img src="https://github-readme-medium.herokuapp.com/?username=omidnikrah" />
+</a>
