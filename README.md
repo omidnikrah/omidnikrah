@@ -19,5 +19,5 @@
 ## My Latest Medium Article
 
 <a href="https://medium.com/@omidnikrah">
-  <img src="https://github-readme-medium.herokuapp.com/?username=omidnikrah" />
+  <img src="https://github-readme-medium.vercel.app/?username=omidnikrah" />
 </a>
