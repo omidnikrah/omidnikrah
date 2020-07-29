@@ -16,7 +16,7 @@
   <img src="https://raw.githubusercontent.com/omidnikrah/omidnikrah/master/activity-profile.png" />
 </div>
 
-## My Latest Medium Article
+## My Latest Medium Articles
 
 <a href="https://medium.com/@omidnikrah">
   <img src="https://github-readme-medium.vercel.app/?username=omidnikrah&limit=2" />
