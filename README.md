@@ -10,6 +10,7 @@
   <br />
   <br />
   <img src="https://github-readme-stats.vercel.app/api?username=omidnikrah&show_icons=true" />
+  <img src="https://github-readme-stackoverflow.vercel.app/?userID=6558042" />
   <br />
   <br />
   <br />
