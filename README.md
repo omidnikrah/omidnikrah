@@ -14,7 +14,9 @@
   <br />
   <br />
   <br />
-  <img src="https://raw.githubusercontent.com/omidnikrah/omidnikrah/master/activity-profile.png" />
+  <a href="https://github.com/omidnikrah/profile-activity-generator">
+    <img src="https://raw.githubusercontent.com/omidnikrah/omidnikrah/master/activity-profile.png" />
+  </a>
 </div>
 
 ## My Latest Medium Articles
