@@ -22,5 +22,5 @@
 ## 📚 My Latest Medium Articles
 
 <a href="https://medium.com/@omidnikrah">
-  <img src="https://github-readme-medium.vercel.app/?username=omidnikrah&limit=2" />
+  <img src="https://github-readme-medium.vercel.app/?username=omidnikrah&limit=2&rand=251561" />
 </a>
